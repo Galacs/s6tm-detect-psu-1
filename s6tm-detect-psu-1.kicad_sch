@@ -4821,6 +4821,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 180.34) (xy 104.14 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1fd478-8089-44fe-84ef-75073bd0950d")
+	)
+	(wire
+		(pts
 			(xy 96.52 72.39) (xy 97.79 72.39)
 		)
 		(stroke
@@ -5701,16 +5711,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 181.61) (xy 115.57 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f92ef33-8ba8-43bb-9f9e-ed1a517552ed")
-	)
-	(wire
-		(pts
 			(xy 33.02 142.24) (xy 43.18 142.24)
 		)
 		(stroke
@@ -6108,6 +6108,16 @@
 			(type default)
 		)
 		(uuid "dc49c240-75cd-4bd2-ab4d-10d97f37ee85")
+	)
+	(wire
+		(pts
+			(xy 104.14 181.61) (xy 95.25 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd038f9f-87e0-41ea-a3d6-75f6e3798ee1")
 	)
 	(wire
 		(pts
@@ -8147,6 +8157,83 @@
 			(project "s6tm-detect-psu-1"
 				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 104.14 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "333e3d35-03a7-4ad3-8f26-b19d990972d5")
+		(property "Reference" "#PWR018"
+			(at 104.14 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 103.632 176.022 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 104.14 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32e915e3-741d-49cf-aa96-89b0a4c10d7c")
+		)
+		(instances
+			(project "s6tm-detect-psu-1"
+				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)

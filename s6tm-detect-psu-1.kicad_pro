@@ -429,13 +429,17 @@
         "uuid": "c28e80f1-f767-484a-bf96-16c1e8738b05"
       }
     ],
-    "used_designators": "L1,SW1-2,U1-2,U4,U6,TP1,TP5,JP1,R5,R7-8,R10-12,R36,J2,J5,J8-9,D1-5,D7-10,D13,C1-21,Y1,FB1,#PWR1-14,#PWR16-18,#PWR20-21,#PWR23-24,#PWR28-32,#PWR34,#PWR36,#PWR38,#PWR41-45,#PWR68-72,#PWR80,#PWR85-86,#FLG2,#FLG8",
+    "used_designators": "#FLG2,#FLG7-9,#PWR1-14,#PWR16-18,#PWR20-21,#PWR23-24,#PWR28-32,#PWR34,#PWR36,#PWR38,#PWR41-49,#PWR68-73,#PWR80-95,FB1,Y1,C1-21,C26-33,D1-5,D7-11,D13,J2,J5-9,R1-3,R5,R7-8,R10-12,R14-22,R36,JP1,TP1,TP5,U1-6,U10,SW1-2,L1",
     "variants": []
   },
   "sheets": [
     [
       "c28e80f1-f767-484a-bf96-16c1e8738b05",
       "Root"
+    ],
+    [
+      "a8ebaca3-da9e-4a0a-a7e6-414b19783be9",
+      "18V efuse"
     ]
   ],
   "text_variables": {},

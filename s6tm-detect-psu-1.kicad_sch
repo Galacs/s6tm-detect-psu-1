@@ -6580,7 +6580,7 @@
 		)
 	)
 	(global_label "IN1"
-		(shape input)
+		(shape output)
 		(at 88.9 44.45 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6604,7 +6604,7 @@
 		)
 	)
 	(global_label "IN2"
-		(shape input)
+		(shape output)
 		(at 90.17 97.79 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6700,7 +6700,7 @@
 		)
 	)
 	(global_label "IN3"
-		(shape input)
+		(shape output)
 		(at 119.38 147.32 90)
 		(fields_autoplaced yes)
 		(effects

@@ -3674,12 +3674,6 @@
 		(uuid "8b2f80a5-5722-4ef9-a0e6-577b97b3ca3f")
 	)
 	(junction
-		(at 154.94 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fb18ad9-e49d-407f-953a-b7f1f29d9ff4")
-	)
-	(junction
 		(at 58.42 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5665,16 +5659,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 154.94 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb40eebe-fe60-4a82-9d9b-415832b24630")
-	)
-	(wire
-		(pts
 			(xy 193.04 88.9) (xy 191.77 88.9)
 		)
 		(stroke
@@ -6212,16 +6196,6 @@
 			(type default)
 		)
 		(uuid "ffa409e2-b865-415d-9940-6aeadf912a78")
-	)
-	(label "SMPS_PG"
-		(at 151.13 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73b62d75-3c40-429c-93e5-a95f2c772b08")
 	)
 	(global_label "ILM2"
 		(shape output)

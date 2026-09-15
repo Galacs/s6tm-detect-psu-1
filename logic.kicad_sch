@@ -6555,6 +6555,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 123.19) (xy 124.46 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39f6672-6de1-4729-93ca-4e2661772de0")
+	)
+	(wire
+		(pts
 			(xy 256.54 156.21) (xy 256.54 157.48)
 		)
 		(stroke
@@ -7232,6 +7242,16 @@
 			(justify right bottom)
 		)
 		(uuid "96c44abb-f6b0-48c4-9004-54bd13d2d04e")
+	)
+	(label "RGB"
+		(at 116.84 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fdc1c1e-1707-4c31-8900-1aa06fe2e6f2")
 	)
 	(label "XTAL_RO"
 		(at 110.49 82.55 180)

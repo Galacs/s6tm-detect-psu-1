@@ -5271,7 +5271,7 @@
 		(uuid "12a3fc51-dcf7-4325-8a3e-334ad34aa1f5")
 	)
 	(rectangle
-		(start 254 87.63)
+		(start 236.22 87.63)
 		(end 281.94 119.38)
 		(stroke
 			(width 0)
@@ -5462,6 +5462,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a88bdce-fb9b-496d-9a92-7a55d031c8cf")
+	)
+	(junction
+		(at 250.19 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17f9bcc1-0cb0-4d35-a666-2a03f0750b13")
 	)
 	(junction
 		(at 125.73 50.8)
@@ -5935,6 +5941,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 105.41) (xy 250.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2835cb8c-9931-40ab-9f46-6897cd90d6f3")
+	)
+	(wire
+		(pts
 			(xy 93.98 171.45) (xy 93.98 179.07)
 		)
 		(stroke
@@ -5962,6 +5978,16 @@
 			(type default)
 		)
 		(uuid "2f5ebd5d-6b25-4ddc-81f5-43d572b4c7ed")
+	)
+	(wire
+		(pts
+			(xy 250.19 96.52) (xy 267.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f89e1fe-199d-4077-b67a-77ce02f4e240")
 	)
 	(wire
 		(pts
@@ -6085,7 +6111,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 95.25) (xy 259.08 96.52)
+			(xy 240.03 95.25) (xy 240.03 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6115,7 +6141,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 96.52) (xy 267.97 96.52)
+			(xy 246.38 96.52) (xy 250.19 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6645,7 +6671,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 96.52) (xy 260.35 96.52)
+			(xy 240.03 96.52) (xy 241.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6822,6 +6848,16 @@
 			(type default)
 		)
 		(uuid "a55ca618-c901-4f23-8e38-d6000ebf1638")
+	)
+	(wire
+		(pts
+			(xy 250.19 96.52) (xy 250.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a844bc80-82ff-4a3d-b871-693ccd7b7316")
 	)
 	(wire
 		(pts
@@ -9147,6 +9183,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 250.19 101.6 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ec9d250-34b1-4771-a6f8-5215c19f6fdb")
+		(property "Reference" "C38"
+			(at 247.142 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 247.142 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 251.1552 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05A105KA5NQNC"
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C52923"
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 250.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "483edb02-c867-47a2-b64c-b6d8ce131273")
+		)
+		(pin "2"
+			(uuid "9edde2bc-070c-4185-bfc6-21b4bc463f2d")
+		)
+		(instances
+			(project "s6tm-detect-psu-1"
+				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05/a8ebaca3-da9e-4a0a-a7e6-414b19783be9"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 107.95 67.31 90)
 		(mirror x)
@@ -10787,7 +10971,7 @@
 	(symbol
 		(lib_name "Jumper_2_Small_Bridged_1")
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 262.89 96.52 0)
+		(at 243.84 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10795,9 +10979,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4326d359-ff44-440d-a56a-f031080e5e6d")
 		(property "Reference" "JP4"
-			(at 262.89 98.298 0)
+			(at 243.84 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10807,7 +10992,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Bridged"
-			(at 262.89 93.98 0)
+			(at 243.84 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10818,7 +11003,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 262.89 96.52 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10829,7 +11014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 96.52 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10840,7 +11025,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 262.89 96.52 0)
+			(at 243.84 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,6 +11333,85 @@
 			(project "s6tm-detect-psu-1"
 				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05/a8ebaca3-da9e-4a0a-a7e6-414b19783be9"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48be6c44-e760-4f32-bd30-979633a8cdaa")
+		(property "Reference" "#PWR078"
+			(at 250.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a64c1696-a08d-4c60-a97d-5267149067b2")
+		)
+		(instances
+			(project "s6tm-detect-psu-1"
+				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05/a8ebaca3-da9e-4a0a-a7e6-414b19783be9"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -14904,7 +15168,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 259.08 95.25 0)
+		(at 240.03 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14914,7 +15178,7 @@
 		(dnp no)
 		(uuid "dc4d23d0-c41b-40cd-bec6-8867253bcba6")
 		(property "Reference" "#PWR076"
-			(at 259.08 99.06 0)
+			(at 240.03 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14925,7 +15189,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 259.588 90.932 0)
+			(at 239.268 90.678 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14935,7 +15199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 95.25 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14946,7 +15210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 95.25 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14957,7 +15221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 259.08 95.25 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

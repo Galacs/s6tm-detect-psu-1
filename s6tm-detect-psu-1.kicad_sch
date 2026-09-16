@@ -12613,7 +12613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 20.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12657,7 +12657,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C495685"
+		(property "JLCPCB Part #" "C163035"
 			(at 20.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12679,7 +12679,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "B2B-XH-A-R(LF)(SN)"
+		(property "Manufacturer Part Number" "S2B-XH-A-1(LF)(SN)"
 			(at 20.32 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -17160,7 +17160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
 			(at 21.59 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17204,7 +17204,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C495685"
+		(property "JLCPCB Part #" "C163035"
 			(at 21.59 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17226,7 +17226,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "B2B-XH-A-R(LF)(SN)"
+		(property "Manufacturer Part Number" "S2B-XH-A-1(LF)(SN)"
 			(at 21.59 38.1 0)
 			(hide yes)
 			(show_name no)

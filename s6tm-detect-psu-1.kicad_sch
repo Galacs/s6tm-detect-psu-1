@@ -2418,102 +2418,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fiducial"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Fiducial_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -4047,7 +3951,7 @@
 		(uuid "b61fbac8-f65e-43bd-90cc-b14ea92f0a03")
 	)
 	(rectangle
-		(start 231.14 143.51)
+		(start 231.14 149.86)
 		(end 255.27 163.83)
 		(stroke
 			(width 0)
@@ -8874,7 +8778,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 250.19 152.4 0)
+		(at 243.84 156.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8883,10 +8787,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f654252-86a4-44dc-abf2-2177291572f7")
 		(property "Reference" "H2"
-			(at 247.65 152.3999 0)
+			(at 245.11 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8897,7 +8800,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 247.65 153.6699 0)
+			(at 241.3 157.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8909,7 +8812,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 250.19 152.4 0)
+			(at 243.84 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8920,7 +8823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 152.4 0)
+			(at 243.84 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8931,7 +8834,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 250.19 152.4 0)
+			(at 243.84 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8942,7 +8845,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 250.19 152.4 0)
+			(at 243.84 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8953,7 +8856,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 250.19 152.4 0)
+			(at 243.84 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9408,7 +9311,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 250.19 147.32 0)
+		(at 236.22 156.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9417,10 +9320,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12771bf4-b5f9-4434-9995-44e04a8e251d")
 		(property "Reference" "H1"
-			(at 247.65 147.3199 0)
+			(at 237.49 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9431,7 +9333,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 247.65 148.5899 0)
+			(at 233.68 157.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9443,7 +9345,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 250.19 147.32 0)
+			(at 236.22 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9454,7 +9356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 147.32 0)
+			(at 236.22 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9465,7 +9367,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 250.19 147.32 0)
+			(at 236.22 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9476,7 +9378,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 250.19 147.32 0)
+			(at 236.22 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9487,7 +9389,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 250.19 147.32 0)
+			(at 236.22 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,106 +9903,6 @@
 			(project "s6tm-detect-psu-1"
 				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 240.03 152.4 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fa806a5-afd7-4973-8d33-f67c88525aea")
-		(property "Reference" "FID2"
-			(at 237.49 152.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 237.49 153.6699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 240.03 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 240.03 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 240.03 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 240.03 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "s6tm-detect-psu-1"
-				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05"
-					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -16368,106 +16170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 240.03 147.32 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e4728a4-9f52-4103-b4a1-18638294d97f")
-		(property "Reference" "FID1"
-			(at 237.49 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 237.49 148.5899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 240.03 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 240.03 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 240.03 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 240.03 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "s6tm-detect-psu-1"
-				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05"
-					(reference "FID1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 110.49 93.98 0)
 		(unit 1)
@@ -16968,7 +16670,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 250.19 157.48 0)
+		(at 251.46 156.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16977,10 +16679,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ab272bc-9343-4637-9510-b2f0ae01944b")
 		(property "Reference" "H3"
-			(at 247.65 157.4799 0)
+			(at 252.73 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16991,7 +16692,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 247.65 158.7499 0)
+			(at 248.92 157.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17003,7 +16704,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 250.19 157.48 0)
+			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17014,7 +16715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 157.48 0)
+			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17025,7 +16726,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 250.19 157.48 0)
+			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17036,7 +16737,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 250.19 157.48 0)
+			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17047,7 +16748,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 250.19 157.48 0)
+			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20938,106 +20639,6 @@
 			(project "s6tm-detect-psu-1"
 				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 240.03 157.48 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea168605-4f37-45be-b4b6-feb1cdff9469")
-		(property "Reference" "FID3"
-			(at 237.49 157.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 237.49 158.7499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 240.03 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 240.03 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 240.03 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 240.03 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "s6tm-detect-psu-1"
-				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05"
-					(reference "FID3")
 					(unit 1)
 				)
 			)

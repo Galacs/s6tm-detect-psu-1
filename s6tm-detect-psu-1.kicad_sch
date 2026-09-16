@@ -11593,7 +11593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 104.4448 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11637,7 +11637,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15525"
+		(property "JLCPCB Part #" "C440198"
 			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11648,7 +11648,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Murata"
 			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -11659,7 +11659,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
 			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12261,7 +12261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.4552 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12305,7 +12305,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15525"
+		(property "JLCPCB Part #" "C440198"
 			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12316,7 +12316,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Murata"
 			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12327,7 +12327,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
 			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14209,7 +14209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 104.4448 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14253,7 +14253,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15525"
+		(property "JLCPCB Part #" "C440198"
 			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14264,7 +14264,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Murata"
 			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14275,7 +14275,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
 			(at 105.41 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15148,7 +15148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.4552 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15192,7 +15192,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15525"
+		(property "JLCPCB Part #" "C440198"
 			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15203,7 +15203,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "Murata"
 			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -15214,7 +15214,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
+		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
 			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)

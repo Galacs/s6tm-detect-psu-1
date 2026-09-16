@@ -447,7 +447,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "02760354-49b2-4550-9736-90694c10ce55")
-		(at 145.125 89.325 90)
+		(at 106 151 90)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H1"
@@ -593,13 +593,13 @@
 			)
 			(polygon
 				(pts
-					(xy 145.125 88.625) (xy 144.957479 88.645341) (xy 144.799694 88.705181) (xy 144.660814 88.801042)
-					(xy 144.548911 88.927355) (xy 144.470489 89.076777) (xy 144.430104 89.240624) (xy 144.430104 89.409376)
-					(xy 144.470489 89.573223) (xy 144.548911 89.722645) (xy 144.660814 89.848958) (xy 144.799694 89.944819)
-					(xy 144.957479 90.004659) (xy 145.125 90.025) (xy 145.292521 90.004659) (xy 145.450306 89.944819)
-					(xy 145.589186 89.848958) (xy 145.701089 89.722645) (xy 145.779511 89.573223) (xy 145.819896 89.409376)
-					(xy 145.819896 89.240624) (xy 145.779511 89.076777) (xy 145.701089 88.927355) (xy 145.589186 88.801042)
-					(xy 145.450306 88.705181) (xy 145.292521 88.645341)
+					(xy 106 150.3) (xy 105.832479 150.320341) (xy 105.674694 150.380181) (xy 105.535814 150.476042)
+					(xy 105.423911 150.602355) (xy 105.345489 150.751777) (xy 105.305104 150.915624) (xy 105.305104 151.084376)
+					(xy 105.345489 151.248223) (xy 105.423911 151.397645) (xy 105.535814 151.523958) (xy 105.674694 151.619819)
+					(xy 105.832479 151.679659) (xy 106 151.7) (xy 106.167521 151.679659) (xy 106.325306 151.619819)
+					(xy 106.464186 151.523958) (xy 106.576089 151.397645) (xy 106.654511 151.248223) (xy 106.694896 151.084376)
+					(xy 106.694896 150.915624) (xy 106.654511 150.751777) (xy 106.576089 150.602355) (xy 106.464186 150.476042)
+					(xy 106.325306 150.380181) (xy 106.167521 150.320341)
 				)
 			)
 		)
@@ -8698,11 +8698,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "447e38ed-6b81-4d77-a654-c8d968c0a69a")
-		(at 176.97 136.4725 90)
+		(at 127.75 132.75)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R26"
-			(at 0 -1.17 90)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(uuid "59791c06-b8d7-44f9-a52c-530b4624a17a")
 			(effects
@@ -8713,7 +8713,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 90)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "24cf2f2c-6c9b-4a32-838d-9e986c594675")
 			(effects
@@ -8724,7 +8724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80946898-472c-4745-885a-685dbb5f3815")
@@ -8735,7 +8735,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e8be4d4d-09a5-43eb-b4b7-264dfd66d489")
@@ -8746,7 +8746,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "367da806-ca4b-416e-877b-4e8a0b642162")
@@ -8758,7 +8758,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8771,7 +8771,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8784,7 +8784,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8797,7 +8797,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF1002TCE"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8864,7 +8864,7 @@
 			(uuid "1a794a46-f8b3-4dd1-b2b9-e17341b86a6f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b1591fe3-a662-48d7-90ac-7fdad84fbc1b")
 			(effects
@@ -8875,7 +8875,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 90)
+			(at -0.51 0)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -8884,7 +8884,7 @@
 			(uuid "7a3e4fc3-19e5-453a-a657-c052cc241886")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 90)
+			(at 0.51 0)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12997,149 +12997,6 @@
 			)
 		)
 	)
-	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
-		(layer "F.Cu")
-		(uuid "6d9f5696-9e3a-4e2c-981a-2ea2dd077fcd")
-		(at 135.025 88.775 90)
-		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
-		(tags "fiducial")
-		(property "Reference" "FID1"
-			(at 0 -1.95 90)
-			(layer "F.SilkS")
-			(uuid "063bb82e-47ab-4f09-954c-1112302bb809")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 0 1.95 90)
-			(layer "F.Fab")
-			(uuid "02123962-4370-46f0-8a30-65f285582cf3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0be3bc04-842e-409b-8e15-55cbb017f41f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0e7a121-28ef-41e3-a318-e5fa1816cdff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "fiducial"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "55aacd35-e72c-4252-970b-fc86ae60ab2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "851e88b8-fc38-42c8-9b4b-6cc1e2ecafd3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64454f53-d521-45df-920c-28136365f328")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/8e4728a4-9f52-4103-b4a1-18638294d97f")
-		(sheetname "/")
-		(sheetfile "s6tm-detect-psu-1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr smd exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7021d0b7-1c0c-4443-8785-b8640c6eea0f")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "dec7651b-e7ad-4982-a82e-7906f9f6873a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "7e9c9e51-ab12-498a-b993-b44a96dfceec")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0 90)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.5)
-			(clearance 0.6)
-			(uuid "ac3a3fd6-ae7e-49c8-b425-80a10ff4467f")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "718a954a-49ef-4c68-b0da-f8ab0832d262")
@@ -15138,149 +14995,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
-		(layer "F.Cu")
-		(uuid "7a923a4e-4007-446d-8dc1-a1a0c6d2413b")
-		(at 138.575 88.775 90)
-		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
-		(tags "fiducial")
-		(property "Reference" "FID2"
-			(at 0 -1.95 90)
-			(layer "F.SilkS")
-			(uuid "216f8126-2e96-4f69-b0ca-1377f80f36bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 0 1.95 90)
-			(layer "F.Fab")
-			(uuid "eb8418c2-9219-4478-930a-3afcb10c5887")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb1541d3-2ee7-4c5c-9159-28272962d963")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e3f9799-0953-4376-a85e-fb9bb118949f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "fiducial"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c30a3306-a2f8-4a53-8f2a-ee3a43768130")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64332fdc-e96a-4e8f-adf1-969d3c9de140")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64c0e92d-78e4-4f2a-bbef-3ae2689b9dc8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/1fa806a5-afd7-4973-8d33-f67c88525aea")
-		(sheetname "/")
-		(sheetfile "s6tm-detect-psu-1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr smd exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "f4dae21d-91ae-4aa1-9275-9a39429e0fc8")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "d1e4a33a-efc5-45ee-a11a-a6d76f191298")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "46da4a5e-80ee-42ea-9965-6e1a9458634b")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0 90)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.5)
-			(clearance 0.6)
-			(uuid "4adce25f-40ed-480c-83b1-7ec1ec086dee")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -18856,149 +18570,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Fiducial:Fiducial_1mm_Mask2mm"
-		(layer "F.Cu")
-		(uuid "a6908deb-ea0b-4c86-b469-21838681f79a")
-		(at 142.125 88.775 90)
-		(descr "Fiducial, circular marking, 1mm bare copper, 2mm soldermask opening (Level A)")
-		(tags "fiducial")
-		(property "Reference" "FID3"
-			(at 0 -1.95 90)
-			(layer "F.SilkS")
-			(uuid "0f7a3871-48f5-4a1a-8cd7-69d560a1f9f6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 0 1.95 90)
-			(layer "F.Fab")
-			(uuid "5fa43d74-7fac-45ad-87f2-854ae6daf4db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99babacd-a9e1-4ab6-8b86-5595aa3de1c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e98106e4-be5f-4fd1-9736-d6a27309a3fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "fiducial"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "90b57a2f-d497-4700-9bb9-9cd35ba1008d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8a70620-3271-43d1-9af0-2384175b4408")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be622704-b7c3-47e3-9648-ebad2c8733d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/ea168605-4f37-45be-b4b6-feb1cdff9469")
-		(sheetname "/")
-		(sheetfile "s6tm-detect-psu-1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr smd exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d9339ab8-a237-46a2-aaa6-3d2865f8beea")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "c304cbdf-172a-4cac-93ce-58b0678bc407")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "05591e73-2dd0-4264-82a9-6ac89259f21a")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0 90)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.5)
-			(clearance 0.6)
-			(uuid "2e849a12-d3c2-4e9f-a86e-4fb6dc0a179c")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a7db442a-cf52-4a7b-881e-af74fbe182cc")
@@ -19658,7 +19229,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "afe7d318-458e-4a5c-9b21-239024a87929")
-		(at 147.575 89.325 90)
+		(at 142 144 90)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H2"
@@ -19804,13 +19375,13 @@
 			)
 			(polygon
 				(pts
-					(xy 147.575 88.625) (xy 147.407479 88.645341) (xy 147.249694 88.705181) (xy 147.110814 88.801042)
-					(xy 146.998911 88.927355) (xy 146.920489 89.076777) (xy 146.880104 89.240624) (xy 146.880104 89.409376)
-					(xy 146.920489 89.573223) (xy 146.998911 89.722645) (xy 147.110814 89.848958) (xy 147.249694 89.944819)
-					(xy 147.407479 90.004659) (xy 147.575 90.025) (xy 147.742521 90.004659) (xy 147.900306 89.944819)
-					(xy 148.039186 89.848958) (xy 148.151089 89.722645) (xy 148.229511 89.573223) (xy 148.269896 89.409376)
-					(xy 148.269896 89.240624) (xy 148.229511 89.076777) (xy 148.151089 88.927355) (xy 148.039186 88.801042)
-					(xy 147.900306 88.705181) (xy 147.742521 88.645341)
+					(xy 142 143.3) (xy 141.832479 143.320341) (xy 141.674694 143.380181) (xy 141.535814 143.476042)
+					(xy 141.423911 143.602355) (xy 141.345489 143.751777) (xy 141.305104 143.915624) (xy 141.305104 144.084376)
+					(xy 141.345489 144.248223) (xy 141.423911 144.397645) (xy 141.535814 144.523958) (xy 141.674694 144.619819)
+					(xy 141.832479 144.679659) (xy 142 144.7) (xy 142.167521 144.679659) (xy 142.325306 144.619819)
+					(xy 142.464186 144.523958) (xy 142.576089 144.397645) (xy 142.654511 144.248223) (xy 142.694896 144.084376)
+					(xy 142.694896 143.915624) (xy 142.654511 143.751777) (xy 142.576089 143.602355) (xy 142.464186 143.476042)
+					(xy 142.325306 143.380181) (xy 142.167521 143.320341)
 				)
 			)
 		)
@@ -20210,7 +19781,7 @@
 	(footprint "MountingHole:ToolingHole_1.152mm"
 		(layer "F.Cu")
 		(uuid "b5192574-2f7f-4769-a78f-b74171b773b4")
-		(at 150.025 89.325 90)
+		(at 99 117 90)
 		(descr "Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order")
 		(tags "mounting")
 		(property "Reference" "H3"
@@ -20356,13 +19927,12 @@
 			)
 			(polygon
 				(pts
-					(xy 150.025 88.625) (xy 149.857479 88.645341) (xy 149.699694 88.705181) (xy 149.560814 88.801042)
-					(xy 149.448911 88.927355) (xy 149.370489 89.076777) (xy 149.330104 89.240624) (xy 149.330104 89.409376)
-					(xy 149.370489 89.573223) (xy 149.448911 89.722645) (xy 149.560814 89.848958) (xy 149.699694 89.944819)
-					(xy 149.857479 90.004659) (xy 150.025 90.025) (xy 150.192521 90.004659) (xy 150.350306 89.944819)
-					(xy 150.489186 89.848958) (xy 150.601089 89.722645) (xy 150.679511 89.573223) (xy 150.719896 89.409376)
-					(xy 150.719896 89.240624) (xy 150.679511 89.076777) (xy 150.601089 88.927355) (xy 150.489186 88.801042)
-					(xy 150.350306 88.705181) (xy 150.192521 88.645341)
+					(xy 99 116.3) (xy 98.832479 116.320341) (xy 98.674694 116.380181) (xy 98.535814 116.476042) (xy 98.423911 116.602355)
+					(xy 98.345489 116.751777) (xy 98.305104 116.915624) (xy 98.305104 117.084376) (xy 98.345489 117.248223)
+					(xy 98.423911 117.397645) (xy 98.535814 117.523958) (xy 98.674694 117.619819) (xy 98.832479 117.679659)
+					(xy 99 117.7) (xy 99.167521 117.679659) (xy 99.325306 117.619819) (xy 99.464186 117.523958) (xy 99.576089 117.397645)
+					(xy 99.654511 117.248223) (xy 99.694896 117.084376) (xy 99.694896 116.915624) (xy 99.654511 116.751777)
+					(xy 99.576089 116.602355) (xy 99.464186 116.476042) (xy 99.325306 116.380181) (xy 99.167521 116.320341)
 				)
 			)
 		)
@@ -21862,7 +21432,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "c35e4344-198e-45e4-ae45-d12f7b5d114d")
-		(at 178.83 122.5525 90)
+		(at 173 138.8 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C27"

@@ -3939,7 +3939,7 @@
 		)
 	)
 	(rectangle
-		(start 257.81 143.51)
+		(start 260.35 143.51)
 		(end 281.94 163.83)
 		(stroke
 			(width 0)
@@ -3951,8 +3951,8 @@
 		(uuid "b61fbac8-f65e-43bd-90cc-b14ea92f0a03")
 	)
 	(rectangle
-		(start 231.14 149.86)
-		(end 255.27 163.83)
+		(start 233.68 149.86)
+		(end 257.81 163.83)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4046,7 +4046,7 @@
 	)
 	(text "SMT assembly"
 		(exclude_from_sim no)
-		(at 243.078 161.798 0)
+		(at 245.618 161.798 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -4081,7 +4081,7 @@
 		(uuid "079c5820-de71-444e-ab53-5f3d4709e35e")
 	)
 	(junction
-		(at 276.86 154.94)
+		(at 274.32 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0be6c451-8e5c-482e-b633-7805c05bd5e4")
@@ -4187,12 +4187,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4593f3d2-2569-4d9c-87ff-ba29ccdb499a")
-	)
-	(junction
-		(at 266.7 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46c618c9-7db7-444b-bf77-62476f294be1")
 	)
 	(junction
 		(at 36.83 35.56)
@@ -4519,7 +4513,7 @@
 		(uuid "fb176a0a-9f50-45cc-92fb-dc00048c8f1f")
 	)
 	(junction
-		(at 271.78 154.94)
+		(at 269.24 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcd14bbc-38bf-4672-98a0-261faf161a2a")
@@ -4868,7 +4862,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 153.67) (xy 261.62 154.94)
+			(xy 264.16 153.67) (xy 264.16 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4885,16 +4879,6 @@
 			(type default)
 		)
 		(uuid "1d70cde0-435c-450f-b493-46bebb6a3c5e")
-	)
-	(wire
-		(pts
-			(xy 266.7 154.94) (xy 266.7 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de47696-c399-4919-b248-f6fbb5ec281d")
 	)
 	(wire
 		(pts
@@ -5528,7 +5512,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 154.94) (xy 271.78 153.67)
+			(xy 269.24 154.94) (xy 269.24 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5558,7 +5542,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 154.94) (xy 271.78 154.94)
+			(xy 264.16 154.94) (xy 279.4 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5838,16 +5822,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 154.94) (xy 276.86 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0e5d02-fd26-4848-987a-451aa8a88eb9")
-	)
-	(wire
-		(pts
 			(xy 137.16 88.9) (xy 137.16 90.17)
 		)
 		(stroke
@@ -5888,7 +5862,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 153.67) (xy 276.86 154.94)
+			(xy 274.32 153.67) (xy 274.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6908,16 +6882,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 154.94) (xy 279.4 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e708d0-772b-465f-8efd-0a367a0a8254")
-	)
-	(wire
-		(pts
 			(xy 129.54 148.59) (xy 130.81 148.59)
 		)
 		(stroke
@@ -7135,16 +7099,6 @@
 			(type default)
 		)
 		(uuid "f5842c7f-4839-4c9a-835c-117ed05867f8")
-	)
-	(wire
-		(pts
-			(xy 261.62 154.94) (xy 266.7 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c87e11-d6c7-420e-9a36-27c790fbee2c")
 	)
 	(wire
 		(pts
@@ -8778,7 +8732,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 243.84 156.21 0)
+		(at 246.38 156.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8789,7 +8743,7 @@
 		(dnp no)
 		(uuid "0f654252-86a4-44dc-abf2-2177291572f7")
 		(property "Reference" "H2"
-			(at 245.11 152.4 0)
+			(at 247.65 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8800,7 +8754,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 241.3 157.4799 0)
+			(at 243.84 157.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8812,7 +8766,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 243.84 156.21 0)
+			(at 246.38 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8823,7 +8777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 156.21 0)
+			(at 246.38 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8834,7 +8788,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 243.84 156.21 0)
+			(at 246.38 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8845,7 +8799,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 243.84 156.21 0)
+			(at 246.38 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +8810,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 243.84 156.21 0)
+			(at 246.38 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9311,7 +9265,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 236.22 156.21 0)
+		(at 238.76 156.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9322,7 +9276,7 @@
 		(dnp no)
 		(uuid "12771bf4-b5f9-4434-9995-44e04a8e251d")
 		(property "Reference" "H1"
-			(at 237.49 152.4 0)
+			(at 240.03 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9333,7 +9287,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 233.68 157.4799 0)
+			(at 236.22 157.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9345,7 +9299,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 236.22 156.21 0)
+			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9356,7 +9310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 156.21 0)
+			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,7 +9321,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 236.22 156.21 0)
+			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +9332,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 236.22 156.21 0)
+			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,7 +9343,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 236.22 156.21 0)
+			(at 238.76 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13663,106 +13617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 266.7 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c7c1143-fac8-4d42-b515-74f50af4ee36")
-		(property "Reference" "H5"
-			(at 265.43 146.304 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 270.51 149.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 266.7 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 266.7 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 266.7 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 266.7 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c942620e-fba6-4ab5-8106-acac9351d965")
-		)
-		(instances
-			(project "s6tm-detect-psu-1"
-				(path "/c28e80f1-f767-484a-bf96-16c1e8738b05"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 119.38 34.29 0)
 		(unit 1)
@@ -14066,7 +13920,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 261.62 151.13 0)
+		(at 264.16 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14076,7 +13930,7 @@
 		(dnp no)
 		(uuid "73a67e76-c9c3-465a-b644-b4f43f8c03a0")
 		(property "Reference" "H6"
-			(at 260.35 146.304 0)
+			(at 262.89 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14087,7 +13941,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 265.43 149.86 90)
+			(at 267.97 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14098,7 +13952,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 261.62 151.13 0)
+			(at 264.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14109,7 +13963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 151.13 0)
+			(at 264.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14120,7 +13974,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 261.62 151.13 0)
+			(at 264.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14131,7 +13985,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 261.62 151.13 0)
+			(at 264.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14142,7 +13996,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 261.62 151.13 0)
+			(at 264.16 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15460,7 +15314,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 271.78 151.13 0)
+		(at 269.24 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15470,7 +15324,7 @@
 		(dnp no)
 		(uuid "87a700fe-a288-4542-a024-a2a59aae1416")
 		(property "Reference" "H7"
-			(at 270.51 146.304 0)
+			(at 267.97 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15481,7 +15335,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 275.59 149.86 90)
+			(at 273.05 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15492,7 +15346,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 271.78 151.13 0)
+			(at 269.24 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,7 +15357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 151.13 0)
+			(at 269.24 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15514,7 +15368,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 271.78 151.13 0)
+			(at 269.24 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15525,7 +15379,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 271.78 151.13 0)
+			(at 269.24 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15536,7 +15390,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 271.78 151.13 0)
+			(at 269.24 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15639,7 +15493,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 151.13 0)
+		(at 274.32 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15649,7 +15503,7 @@
 		(dnp no)
 		(uuid "898cec08-9fab-4b2d-8285-3c93817082a6")
 		(property "Reference" "H8"
-			(at 275.59 146.304 0)
+			(at 273.05 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15660,7 +15514,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 280.67 149.86 90)
+			(at 278.13 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15671,7 +15525,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 276.86 151.13 0)
+			(at 274.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15682,7 +15536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 151.13 0)
+			(at 274.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15693,7 +15547,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 276.86 151.13 0)
+			(at 274.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15704,7 +15558,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 276.86 151.13 0)
+			(at 274.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15715,7 +15569,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 276.86 151.13 0)
+			(at 274.32 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16670,7 +16524,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 251.46 156.21 0)
+		(at 254 156.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16681,7 +16535,7 @@
 		(dnp no)
 		(uuid "9ab272bc-9343-4637-9510-b2f0ae01944b")
 		(property "Reference" "H3"
-			(at 252.73 152.4 0)
+			(at 255.27 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16692,7 +16546,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 248.92 157.4799 0)
+			(at 251.46 157.4799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16704,7 +16558,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 251.46 156.21 0)
+			(at 254 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16715,7 +16569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 156.21 0)
+			(at 254 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16726,7 +16580,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 251.46 156.21 0)
+			(at 254 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16737,7 +16591,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 251.46 156.21 0)
+			(at 254 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16748,7 +16602,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 251.46 156.21 0)
+			(at 254 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

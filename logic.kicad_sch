@@ -5692,10 +5692,6 @@
 		(uuid "2799743b-d9c0-445e-9438-280e9c9617a7")
 	)
 	(no_connect
-		(at 160.02 80.01)
-		(uuid "48d9730c-75ac-420d-9eb2-35566c31ded3")
-	)
-	(no_connect
 		(at 124.46 118.11)
 		(uuid "54b0bbc0-d328-48c3-be9b-a3201c8d399d")
 	)
@@ -5710,6 +5706,10 @@
 	(no_connect
 		(at 275.59 105.41)
 		(uuid "8bb909f5-671e-4b86-abc3-6a913fc6d1f0")
+	)
+	(no_connect
+		(at 124.46 123.19)
+		(uuid "a1020353-1585-481f-826b-961a8692c0ea")
 	)
 	(no_connect
 		(at 160.02 87.63)
@@ -6937,6 +6937,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 80.01) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcc056e-cf52-46ea-89d8-c83202e9d405")
+	)
+	(wire
+		(pts
 			(xy 154.94 34.29) (xy 154.94 35.56)
 		)
 		(stroke
@@ -6974,16 +6984,6 @@
 			(type default)
 		)
 		(uuid "b100fcc1-1cea-4179-b144-d5e19db4206a")
-	)
-	(wire
-		(pts
-			(xy 116.84 123.19) (xy 124.46 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39f6672-6de1-4729-93ca-4e2661772de0")
 	)
 	(wire
 		(pts
@@ -7655,16 +7655,6 @@
 		)
 		(uuid "96c44abb-f6b0-48c4-9004-54bd13d2d04e")
 	)
-	(label "RGB"
-		(at 116.84 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fdc1c1e-1707-4c31-8900-1aa06fe2e6f2")
-	)
 	(label "XTAL_RO"
 		(at 110.49 82.55 180)
 		(effects
@@ -7754,6 +7744,16 @@
 			(justify right bottom)
 		)
 		(uuid "f6ff740d-e518-4f11-a6b7-b584fdb363ef")
+	)
+	(label "RGB"
+		(at 176.53 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9104c83-4447-4b7c-b0dd-4620f36b5a99")
 	)
 	(global_label "BATT1_V"
 		(shape input)

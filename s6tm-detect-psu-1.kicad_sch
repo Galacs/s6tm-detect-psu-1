@@ -20010,7 +20010,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C26982"
+		(property "JLCPCB Part #" "C2998086"
 			(at 181.61 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -20021,7 +20021,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal Elec"
+		(property "Manufacturer" "FOJAN"
 			(at 181.61 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -20032,7 +20032,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF5232TCE"
+		(property "Manufacturer Part Number" "FRC0402F5232TS"
 			(at 181.61 93.98 90)
 			(hide yes)
 			(show_name no)

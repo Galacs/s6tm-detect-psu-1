@@ -14269,7 +14269,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ6.0CA"
+		(property "Value" "SMAJ22CA"
 			(at 99.06 187.9599 90)
 			(hide yes)
 			(show_name no)
@@ -14325,7 +14325,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C19077544"
+		(property "JLCPCB Part #" "C42394397"
 			(at 96.52 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -14347,7 +14347,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "SMAJ26CA"
+		(property "Manufacturer Part Number" "SMAJ22CA"
 			(at 96.52 186.69 90)
 			(hide yes)
 			(show_name no)

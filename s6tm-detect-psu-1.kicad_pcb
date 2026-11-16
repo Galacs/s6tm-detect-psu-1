@@ -10,7 +10,7 @@
 	(title_block
 		(title "S6TM Detect PSU 1")
 		(date "2026-09-20")
-		(rev "01")
+		(rev "02")
 		(company "Rémi Ait-Younes")
 	)
 	(layers
@@ -32842,7 +32842,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PSU 1R1\n26-09"
+	(gr_text "PSU 1R2\n26-09"
 		(at 124.75 129.529526 0)
 		(layer "F.SilkS")
 		(uuid "bf306839-2137-4a6a-b640-ac3daaa45faf")
@@ -33007,7 +33007,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev 01"
+	(gr_text "Rev 02"
 		(at 113.75 122.25 0)
 		(layer "B.SilkS")
 		(uuid "a938653e-c3b2-4517-9bf0-98d24f6cd70e")
